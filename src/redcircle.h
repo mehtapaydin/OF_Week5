@@ -16,7 +16,7 @@ class redcircle {
 public:
     
     redcircle();
-    
+    float radius = 100 ;
     void setup();
     void update();
     void draw();

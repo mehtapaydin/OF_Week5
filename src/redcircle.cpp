@@ -22,8 +22,13 @@ void redcircle::setup() {
 
 //------------------------------------------------------------------
 void redcircle::update() {
+//    if (radius<200){
+//        ofSetColor(216,36,45);
+//    } else {
+//        ofSetColor(36,216,45);
+//    }
     
-
+    radius *= radius ;
 }
 
 //------------------------------------------------------------------
@@ -33,7 +38,7 @@ void redcircle::draw() {
     ofFill();
 
     ofSetColor(216,36,45);
-    ofDrawCircle(pos.x, pos.y, 40);
+    ofDrawCircle(pos.x, pos.y, radius);
 }
 
 //------------------------------------------------------------------

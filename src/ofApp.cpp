@@ -54,7 +54,7 @@ void ofApp::update(){
     
 	myRectangle.zenoToPoint(mouseX, mouseY);
     myRedcircle.zenoToPoint(mouseX, mouseY);
-//    myOrangetriangle.zenoToPoint(mouseX, mouseY);
+//  myOrangetriangle.zenoToPoint(mouseX, mouseY);
     myEllipse.update();
     myOrangetriangle.update();
     

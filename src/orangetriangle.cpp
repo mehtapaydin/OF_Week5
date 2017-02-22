@@ -10,6 +10,9 @@
 #include "orangetriangle.h"
 #include "ofMain.h"
 
+float mX = 0;
+float mY = 0;
+
 //------------------------------------------------------------------
 orangetriangle::orangetriangle(){
      catchUpSpeed = 0.03f;

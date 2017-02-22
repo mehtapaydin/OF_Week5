@@ -15,7 +15,7 @@ class ofApp : public ofSimpleApp{
 		void setup();
 		void update();
 		void draw();
-       
+  
     
     
 		rectangle myRectangle;
